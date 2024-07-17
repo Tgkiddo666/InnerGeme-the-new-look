@@ -1,0 +1,34 @@
+# robots.txt for https://www.yoursite.com/
+
+# Allow all search engines to index the entire site
+User-agent: *
+Disallow:
+
+# Disallow crawling of specific directories
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+# Allow specific bots to crawl the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow specific files or URLs
+Disallow: /search/
+Disallow: /checkout/
+Disallow: /lang/new post.html/
+
+# Sitemap location
+Sitemap: https://www.innergeme.com/sitemap.xml
+
+# Crawl delay to reduce server load (optional)
+Crawl-delay: 10
+
+# Block specific bots (if needed)
+User-agent: BadBot
+Disallow: /
+
+# Note: Be cautious with the Disallow rules to avoid blocking important pages or resources
