@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.innergeme.com/</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+    </url>
+    
+    <!-- Legal Pages -->
+    <url>
+        <loc>https://www.innergeme.com/legal/terms.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/legal/newsletter-terms.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/legal/privacy.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/legal/font-licenses.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/legal/disclaimer.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/legal/cookie-policy.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/legal/about.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+
+
+
+
+    <!-- Blog Posts (in en-uk) update individually-->
+    <url>
+        <loc>https://www.innergeme.com/lang/en-uk/</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    
+    <!-- Blog Posts (in en-us) -->
+    <url>
+        <loc>https://www.innergeme.com/lang/en-us/</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.70</priority>
+    </url>
+
+
+
+
+
+    <!-- Important Pages -->
+    <url>
+        <loc>https://www.innergeme.com/pages/search-page.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/pages/newsletter.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/pages/contact.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.innergeme.com/pages/legal.html</loc>
+        <lastmod>2024-11-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+</urlset>

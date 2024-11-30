@@ -1,0 +1,342 @@
+        body {
+            font-family: 'League Spartan Regular', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+          height: 450px;
+        }
+        .container-sub {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            padding: 50px 50px 50px;
+            line-height: 1.15;
+        }
+        .container-sub {
+            background-color: #FEFDF9;
+        }
+        .container-sub1 {
+            padding: 50px 50px 50px;
+            border-top: 1px solid #eaeaea;
+        }
+        .text-content {
+            max-width: 500px;
+        }
+        .text-content h1 {
+            font-size: 2em;
+            margin: 0 0 20px 0;
+            line-height: 1.15;
+        }
+        .buttons {
+            display: flex;
+            gap: 15px;
+        }
+        .further {
+          padding: 20px 0 40px;
+        }
+        .button-primary, .button-secondary {
+            font-family: 'DM Sans';
+            color: #fff;
+            background-color: #e37119;
+            padding: 12px 20px;
+            border-radius: 50px;
+            margin-right: 0;
+            border: none;
+            background: #000;
+            font-size: 16px;
+        }
+        .button-primary {
+            background-color: #000;
+            text-decoration: none;
+        }
+        .button-secondary {
+            background-color: transparent;
+            color: #000;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .automation {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 20px;
+            width: 350px;
+            border: 2px solid black;
+        }
+        .step img {
+            width: 40px;
+            height: 40px;
+            border-radius: 7px;
+        }
+        .plus {
+            width: 30px;
+            height: 30px;
+        }
+        .related-articles-container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 100%;
+        }
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article {
+    flex: 1 1 calc(25% - 20px); /* Always take up 25% of the row minus gap */
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/* Ensure that empty spaces in the last row are visually aligned */
+.articles::after {
+    content: "";
+    flex: 0 1 calc(25% - 20px); /* Create an empty space the same size as the articles */
+    visibility: hidden;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 15px;
+}
+
+.article a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.article h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 15px 0 0;
+}
+
+/* General styling for the form container */
+#contactForm {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Styling for form labels */
+#contactForm label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+  font-family: 'League Spartan Regular', sans-serif;
+}
+
+/* Styling for text and email input fields */
+#contactForm input[type="text"],
+#contactForm input[type="email"] {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  margin: 4px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: 'League Spartan Regular', sans-serif;
+}
+
+/* Focus state for input fields */
+#contactForm input[type="text"]:focus,
+#contactForm input[type="email"]:focus {
+  border-color: #000;
+  outline: none;
+}
+
+#contactForm form {
+  text-align: center;
+}
+
+#contactForm form p {
+  font-size: 12px;
+}
+
+#contactForm form a {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* Styling for the submit button */
+#submitButton {
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+            font-family: 'DM Sans';
+            color: #fff;
+            background-color: #e37119;
+            padding: 12px 20px;
+            border-radius: 50px;
+            margin-right: 0;
+            border: none;
+            background: #000;
+            font-size: 16px;
+}
+
+/* Hover state for the submit button */
+#submitButton:hover {
+  background-color: #333;
+}
+
+/* Ensures proper spacing between form elements */
+#contactForm input,
+#contactForm label {
+  margin-top: 10px;
+}
+
+ #cookieConsentMessage {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 15px;
+    line-height: 1.13;
+}
+
+#cookieConsentMessage div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cookieConsentMessage button {
+    margin: 10px 0 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 868px) {
+        .container-sub {
+            flex-direction: column;
+            padding: 50px 30px 30px;
+            gap: 60px;
+        }
+        .text-content {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .buttons {
+            flex-direction: column;
+        }
+        .step {
+            width: 444px;
+        }
+          .articles {
+    gap: 10px;
+  }
+  .article {
+    flex: 1 1 calc(50% - 10px);
+  }
+            #cookieConsentMessage {
+              bottom: 100px;
+            }
+            #cookieConsentMessage p {
+              font-size: 15px;
+            }
+}
+
+/* For small tablets */
+@media only screen and (min-width: 500px) and (max-width: 699px) {
+        .container-sub {
+            flex-direction: column;
+            padding: 50px 30px 30px;
+            gap: 60px;
+        }
+        .text-content {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .buttons {
+            flex-direction: column;
+        }
+        .step {
+            width: 444px;
+        }
+          .articles {
+    gap: 10px;
+  }
+  .article {
+    flex: 1 1 calc(50% - 10px);
+  }
+
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 499px) {
+        .container-sub {
+            flex-direction: column;
+            padding: 100px 30px 50px;
+            gap: 60px;
+        }
+        .hero {
+          height: auto;
+        }
+        .text-content {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .text-content h1 {
+            font-size: 25px;
+        }
+        .buttons {
+            flex-direction: column;
+        }
+        .step {
+            width: 90%;
+        }
+          .articles {
+    gap: 10px;
+  }
+  .article {
+    flex: 1 1 calc(100% - 10px);
+  }
+}

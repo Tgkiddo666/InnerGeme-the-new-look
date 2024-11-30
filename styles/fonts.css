@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../../assets/fonts/DMSans18pt-Regular.woff2') format('woff2'),
+    url('../../assets/fonts/DMSans18pt-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sora Regular';
+  src: url('../../assets/fonts/Sora-Regular.woff2') format('woff2'),
+    url('../../assets/fonts/Sora-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sora Bold';
+  src: url('../../assets/fonts/Sora-Bold.woff2') format('woff2'),
+    url('../../assets/fonts/Sora-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sora SemiBold';
+  src: url('../../assets/fonts/Sora-SemiBold.woff2') format('woff2'),
+    url('../../assets/fonts/Sora-SemiBold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'League Spartan Bold';
+  src: url('../../assets/fonts/LeagueSpartan-Bold.woff2') format('woff2'),
+    url('../../assets/fonts/LeagueSpartan-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'League Spartan Regular';
+  src: url('../../assets/fonts/LeagueSpartan-Regular.woff2') format('woff2'),
+    url('../../assets/fonts/LeagueSpartan-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Posterama 2';
+  src: url('../../assets/fonts/Posterama 1913 W01 Bold.woff2') format('woff2'),
+    url('../../assets/fonts/Posterama 1913 W01 Bold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Posterama';
+  src: url('../../assets/fonts/Posterama 1984 W04 Black.woff2') format('woff2'),
+    url('../../assets/fonts/Posterama 1984 W04 Black.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SourceSans3 Regular';
+  src: url('../../assets/fonts/SourceSans3-Regular.woff2') format('woff2'),
+    url('../../assets/fonts/SourceSans3-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'DM Sans';
+}

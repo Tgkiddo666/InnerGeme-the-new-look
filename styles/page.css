@@ -1,0 +1,278 @@
+ body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            line-height: 1.6;
+            color: #000;
+            background: #f8f8f8;
+        }
+        
+        button {
+          font-family: "Poppins", sans-serif;
+        }
+        
+
+        
+        .title-box {
+            background-color: #f8f8f8;
+            color: #000;
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #000;
+            border-top: 2px solid #000;
+        }
+        .title-box .left {
+            width: 60%;
+        }
+        .title-box .breadcrumbs {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .title-box h1 {
+            font-size: 40px;
+            margin: 10px 0;
+        }
+        .title-box .details {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .title-box .details .expert-reviewed {
+            background-color: transparent;
+            color: #000;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        
+        .title-box .expert-reviewed {
+          margin: 0 0 15px;
+        }
+        .title-box .details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        
+        .right-side {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            padding-top: 10px;
+        }
+
+        .post-body {
+            width: 65%;
+            padding: 10px;
+        }
+
+
+
+        a {
+            color: #000;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        
+        p {
+          font-size: 20px;
+        }
+
+  #cookieConsentMessage {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+#cookieConsentMessage div {
+    display: flex;
+    justify-content: center;
+    align-items: center 
+}
+
+#cookieConsentMessage button {
+    margin: 10px 0 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 999px) {
+
+}
+
+/* For tablets */
+
+@media only screen and (min-width: 700px) and (max-width: 868px) {
+        .title-box {
+          justify-content: center;
+          align-items: flex-start;
+          padding: 30px 30px 10px;
+        }
+        .title-box h1 {
+          font-size: 24px;
+        }
+        .title-box .breadcrumbs {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .title-box .details {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .title-box .expert-reviewed {
+          margin: 0 0 15px;
+        }
+        .title-box .details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .title-box img {
+          width: 100%;
+          height: auto;
+        }
+        .container {
+          padding: 20px 30px 20px;
+        }
+        p {
+          font-size: 17px;
+        }
+            #cookieConsentMessage {
+              bottom: 100px;
+            }
+            #cookieConsentMessage p {
+              font-size: 15px;
+            }
+}
+
+/* For small tablets */
+
+@media only screen and (min-width: 500px) and (max-width: 699px) {
+
+        .title-box {
+          justify-content: center;
+          align-items: flex-start;
+          padding: 30px;
+        }
+        .title-box h1 {
+          font-size: 24px;
+        }
+        .title-box .breadcrumbs {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .title-box .details {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .title-box .expert-reviewed {
+          margin: 0 0 15px;
+        }
+        .title-box .details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .title-box img {
+          width: 100%;
+          height: auto;
+        }
+        .container {
+          padding: 20px 30px 20px;
+        }
+        .post-body {
+          width: 100%;
+        }
+        p {
+          font-size: 18px;
+        }
+  #cookieConsentMessage {
+    bottom: 90px;
+}
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 499px) {
+        .title-box {
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          padding: 30px;
+        }
+        .title-box .left {
+            width: 100%;
+        }
+        .title-box h1 {
+          font-size: 24px;
+        }
+        .title-box .breadcrumbs {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .title-box .details {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .title-box .expert-reviewed {
+          margin: 0 0 15px;
+        }
+        .title-box .details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .right-side {
+          width: 100%;
+        }
+        .title-box img {
+          width: 100%;
+          height: auto;
+        }
+        .container {
+          padding: 20px;
+        }
+        .post-body {
+          width: 100%;
+        }
+        p {
+          font-size: 18px;
+        }
+}

@@ -1,0 +1,239 @@
+
+.header {
+    background-color: #FEFDF9;
+    padding: 10px 30px 10px;
+    position: sticky;
+    top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Posterama';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.logo1 {
+  margin: 0 1px 0;
+  font-family: 'Posterama 2';
+}
+
+.logo2 {
+  color: #fff;
+  background: #000;
+  padding: 0 1px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.beta {
+  color: #ECD318;
+  font-weight: normal;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-list li a span {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    font-family: 'DM Sans';
+    text-decoration: none;
+    color: #333;
+    border: none;
+    margin: 0 10px 0;
+    background: transparent;
+    font-size: 16px;
+    padding: 12px 0;
+}
+
+.signup {
+    font-family: 'DM Sans';
+    color: #fff;
+    background-color: #e37119;
+    padding: 12px 20px;
+    border-radius: 50px;
+    margin: 0 10px 0;
+    margin-right: 0;
+    border: none;
+    background: #000;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #FEFDF9;
+    padding: 25px;
+    border-top: 1px solid #eaeaea;
+}
+
+.first-row, .second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social svg {
+    width: 28px;
+    height: 28px;
+}
+
+.social svg {
+    margin: 4px;
+    text-decoration: none;
+    fill: #000;
+}
+
+.social span {
+  margin: 4px;
+  color: #000;
+  font-size: 18px;
+}
+
+.links {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links a {
+    font-family: 'DM Sans';
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.legal {
+    margin: 10px;
+    display: flex;
+}
+
+.legal p {
+    margin: 0;
+    margin: 5px;
+    color: #999;
+}
+
+.legal a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin: 5px;
+}
+@media only screen and (min-width: 700px) and (max-width: 868px) {
+  
+        .footer {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .first-row {
+            flex-direction: column;
+        }
+        .second-row {
+            width: 75%;
+        }
+        .social span {
+            display: none;
+        }
+}
+
+/* For small tablets */
+
+@media only screen and (min-width: 500px) and (max-width: 699px) {
+        .logo-container ul {
+          display: none;
+        }
+        .footer {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .first-row, .second-row {
+            flex-direction: column;
+        }
+        .social span {
+            display: none;
+        }
+
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 499px) {
+        header {
+          padding: 10px 20px 10px;
+        }
+        .logo-container ul {
+          display: none;
+        }
+        .login {
+          display: none;
+        }
+        .footer {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .links {
+            align-items: center;
+            justify-content: center;
+        }
+        .first-row, .second-row {
+            flex-direction: column;
+        }
+        .social span {
+            display: none;
+        }
+        
+}

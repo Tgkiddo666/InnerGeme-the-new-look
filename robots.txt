@@ -1,0 +1,25 @@
+# General Allowance for Most Bots
+User-agent: *
+Disallow: /admin/ # Block admin area (if applicable)
+Disallow: /login/ # Block login page (if applicable)
+Disallow: /register/ # Block registration page (if applicable)
+Disallow: /user-data/ # Block user-specific data (if any)
+Disallow: /tmp/ # Block temporary files/folders
+Disallow: /staging/ # Block staging or development pages
+
+# Block Paginated Pages 
+Disallow: /pages/topic/ # Block pagination pages from search
+Disallow: /lang/template/ # Block Templates
+
+# Allow access to important static resources
+Allow: /styles/ # Allow CSS files for page styling
+Allow: /assets/logos/ # Allow logo folder to be crawled
+Allow: /assets/fonts/ # Allow fonts folder to be crawled
+Allow: /images/ # Allow image folder for indexing
+Allow: /javascript/ # Allow JavaScript folder for functionality
+
+# Legal Pages should be accessible for indexing
+# No need to disallow /legal/ for indexing
+
+# Sitemap - Make sure this path is correct to help search engines crawl efficiently
+Sitemap: https://www.innergeme.com/sitemap.xml

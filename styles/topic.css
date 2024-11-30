@@ -1,0 +1,73 @@
+
+
+body {
+  background: #f8f8f8;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.pagination button {
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .active {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.related-articles-container {
+  min-width: 100%;
+}
+
+/* For tablets and below */
+@media (max-width: 768px) { 
+  .pagination {
+    flex-direction: row;
+  }
+  .pagination button {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .pagination {
+    flex-wrap: nowrap; /* Prevent wrapping on small screens */
+    justify-content: center; /* Center buttons */
+    flex-direction: row;
+  }
+
+  .pagination button {
+    width: auto; /* Allow buttons to be auto-sized */
+    box-sizing: border-box;
+  }
+
+  .pagination .page-number {
+    display: none; /* Hide page numbers */
+  }
+
+  .pagination .prev-page,
+  .pagination .next-page {
+    display: inline-block; /* Show only prev and next buttons */
+    width: 100%; /* Make prev and next buttons take full width */
+    text-align: center;
+  }
+}

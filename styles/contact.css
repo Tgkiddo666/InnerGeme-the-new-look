@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Regular.woff') format('woff'),
+       url('../../assets/fonts/Poppins-Regular.woff2') format('woff2');
+       font-display: swap;
+}
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url('../../assets/fonts/DMSerifDisplay-Regular.woff') format('woff'),
+       url('../../assets/fonts/DMSerifDisplay-Regular.woff2') format('woff2');
+       font-display: swap;
+}
+@font-face {
+  font-family: 'Exo 2';
+  src: url('../../assets/fonts/Exo2-Regular.woff') format('woff'),
+       url('../../assets/fonts/Exo2-Regular.woff2') format('woff2');
+       font-display: swap;
+}
+
+
+
+/* General styling for the form container */
+#contactForm1 {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form labels */
+#contactForm1 label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+  font-family: 'League Spartan Regular', sans-serif;
+}
+
+/* Styling for text and email input fields */
+#contactForm1 input[type="text"],
+#contactForm1 input[type="email"],
+#contactForm1 textarea {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  margin: 4px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: 'League Spartan Regular', sans-serif;
+}
+
+/* Focus state for input fields */
+#contactForm1 input[type="text"]:focus,
+#contactForm1 input[type="email"]:focus {
+  border-color: #000;
+  outline: none;
+}
+
+/* Styling for the submit button */
+#submitButton1 {
+  width: 100%;
+  font-size: 24px;
+  padding: 14px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+  font-family: 'League Spartan Regular', sans-serif;
+}
+
+/* Hover state for the submit button */
+#submitButton1:hover {
+  background-color: #333;
+}
+
+
+.container-useful {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 499px) {
+  
+  #contactForm1 {
+    padding: 30px;
+    display: block;
+    text-align: center;
+    box-shadow: none;
+  }
+}
