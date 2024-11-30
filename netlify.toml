@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/pages/newsletter"
+  to = "https://facebook.com"
+  status = 301
+  force = true
